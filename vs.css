@@ -1,0 +1,18 @@
+.monaco-workbench > .part.statusbar,
+.monaco-workbench.no-workspace > .part.statusbar { 
+   # background: linear-gradient(#616161 0%, #515151 100%); 
+    background: #ffffff;
+    font-size: 11px;
+    text-shadow: 1px 1px #000000;
+}
+.monaco-workbench .statusbar-item > .dropdown.send-feedback {
+    display: none
+}
+.monaco-workbench > .part.statusbar > .statusbar-item a {
+    padding: 0 15px;
+    margin: 0;    
+}
+.monaco-workbench .git-statusbar-group > .git-statusbar-branch-item {
+    padding-left: 35px !important;
+    background-position-x: 15px;
+}
